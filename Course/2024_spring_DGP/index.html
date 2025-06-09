@@ -2,122 +2,134 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" slick-uniqueid="3">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="keywords" content="Digital Geometry Processing, University of Science and Technology of China, USTC">
-    <meta name="description" content="DGP&#39;s course webpage">
-    <link rel="stylesheet" href="../../Homepage_files/style/jemdoc.css" type="text/css">
-    <style type="text/css">
-    </style>
-    <title>Digital Geometry Processing - USTC</title>
-    <link rel="shortcut icon" href="../../Homepage_files/img/homepage.ico">
-    <!--link rel="shortcut icon" type="image/gif" href="./Homepage_files/img/animated_favicon1.gif" -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords"
+                content="Digital Geometry Processing, University of Science and Technology of China, USTC">
+        <meta name="description" content="DGP&#39;s course webpage">
+        <link rel="stylesheet" href="../../Homepage_files/style/jemdoc.css" type="text/css">
+        <style type="text/css">
+        </style>
+        <title>Digital Geometry Processing - USTC</title>
+        <link rel="shortcut icon" href="../../Homepage_files/img/homepage.ico">
+        <!--link rel="shortcut icon" type="image/gif" href="./Homepage_files/img/animated_favicon1.gif" -->
 </head>
 
 <body>
-    <tr>
-        <div align="right">
-            [<a href="#introduction">Introduction</a>] &mdash;
-            [<a href="#info">Course Info</a>] &mdash;
-            [<a href="#schedule">Schedule</a>] &mdash;
-            [<a href="#assignments">Assignments</a>]
-        </div>
-        <center>
-            <h1>Digital Geometry Processing<br>
-                <font face="Times New Roman" size="4">(MATH6419P.01, 2024 Spring)</font>
-            </h1>
-        </center>
-        <div align="center">
-            <img width="950" src="teaser.png" alt="">
-        </div>
-        <h2 id="introduction"> Introduction</h2>
-        <p style="text-align:justify;">
-            This course will introduce the basic mathematical foundation of 3D surfaces
-            from the perspective of discrete differential geometry. In detail, we will
-            introduce the complete geometric processing pipeline, including mesh
-            representation, mesh smoothing, mesh parameterization, mesh deformation,
-            mesh repairing, mesh mapping, remeshing, mesh simplification, and direction
-            field generation. We will learn the representation method, data structure,
-            modeling method, shape editing and analysis method of polygon mesh in the
-            computer by many programming tasks.
-        </p>
+        <tr>
+                <div align="right">
+                        [<a href="#introduction">Introduction</a>] &mdash;
+                        [<a href="#info">Course Info</a>] &mdash;
+                        [<a href="#schedule">Schedule</a>] &mdash;
+                        [<a href="#assignments">Assignments</a>]
+                </div>
+                <center>
+                        <h1>Digital Geometry Processing<br>
+                                <font face="Times New Roman" size="4">(MATH6419P.01, 2024 Spring)</font>
+                        </h1>
+                </center>
+                <div align="center">
+                        <img width="950" src="teaser.png" alt="">
+                </div>
+                <h2 id="introduction"> Introduction</h2>
+                <p style="text-align:justify;">
+                        This course will introduce the basic mathematical foundation of 3D surfaces
+                        from the perspective of discrete differential geometry. In detail, we will
+                        introduce the complete geometric processing pipeline, including mesh
+                        representation, mesh smoothing, mesh parameterization, mesh deformation,
+                        mesh repairing, mesh mapping, remeshing, mesh simplification, and direction
+                        field generation. We will learn the representation method, data structure,
+                        modeling method, shape editing and analysis method of polygon mesh in the
+                        computer by many programming tasks.
+                </p>
 
-        <h2 id="info"> Course Info</h2>
-        <ul style="list-style-type:disc">
-            <li><strong>Instructors:</strong> <a href="https://qingfang1208.github.io" target="_blank">Qing Fang</a>
-            </li>
-            <li><strong>Date and time:</strong> Wednesday, 2:00pm–3:30pm / Friday, 3:55pm-6:10pm.</li>
-            <li><strong>Location:</strong> Room 5304, East Campus, USTC.</li>
-        </ul>
+                <h2 id="info"> Course Info</h2>
+                <ul style="list-style-type:disc">
+                        <li><strong>Instructors:</strong> <a href="https://qingfang1208.github.io" target="_blank">Qing
+                                        Fang</a>
+                        </li>
+                        <li><strong>Date and time:</strong> Wednesday, 2:00pm–3:30pm / Friday, 3:55pm-6:10pm.</li>
+                        <li><strong>Location:</strong> Room 5304, East Campus, USTC.</li>
+                </ul>
 
-        <h2 id="schedule"> Schedule</h2>
-        <ul style="list-style-type:disc">
-            <li><strong>28 Feb(Wed)</strong>&mdash; <a href="slides/DGP01_intro.pdf" target="_blank">Overview</a> and <a
-                    href="slides/DGP02_mesh.pdf" target="_blank">mesh</a>.</li>
-            <li><strong>01 Mar(Fri)</strong>&mdash; <a href="slides/DGP03_DT_VD.pdf" target="_blank">Delaunay
-                    Triangulations and Voronoi Diagram</a>.</li>
-            <li><strong>06 Mar(Wed)</strong>&mdash; <a href="slides/DGP04I_reconstruction.pdf" target="_blank">Surface
-                    Reconstruction I</a>.</li>
-            <li><strong>08 Mar(Fri)</strong>&mdash; <a href="slides/DGP04II_reconstruction.pdf" target="_blank">Surface
-                    Reconstruction II</a>.</li>
-            <li><strong>13 Mar(Wed)</strong>&mdash; <a href="slides/DGP05_discrete_differential_curves.pdf"
-                    target="_blank">Differential Curves</a>.</li>
-            <li><strong>15 Mar(Fri)</strong>&mdash; <a href="slides/DGP05_discrete_differential_surfaces.pdf"
-                    target="_blank">Differential Surfaces</a>.</li>
-            <li><strong>20 Mar(Wed)</strong>&mdash; <a href="slides/DGP06_mesh_smoothing.pdf" target="_blank">Mesh
-                    Smoothing</a>.</li>
-            <li><strong>22 Mar(Fri)</strong>&mdash; <a href="slides/DGP07_parameterization_I.pdf"
-                    target="_blank">Parameterization I</a>.</li>
-            <li><strong>27 Mar(Wed)</strong>&mdash; <a href="slides/DGP07_parameterization_II.pdf"
-                    target="_blank">Parameterization II</a>.</li>
-            <li><strong>29 Mar(Fri)</strong>&mdash; <a href="slides/DGP07_parameterization_III.pdf"
-                    target="_blank">Parameterization III</a>.</li>
-            <li><strong>03 Apr(Wed)</strong>&mdash; <a href="slides/DGP08_deformation_I.pdf" target="_blank">Deformation
-                    I</a>.</li>
-            <li><strong>07 Apr(Sun)</strong>&mdash; <a href="slides/DGP08_deformation_II.pdf"
-                    target="_blank">Deformation II</a>.</li>
-            <li><strong>10 Apr(Wed)</strong>&mdash; <a href="slides/DGP09_cubic_stylization_polycube.pdf"
-                    target="_blank">Cubic Stylization and Polycube</a>.</li>
-            <li><strong>12 Apr(Fri)</strong>&mdash; <a href="slides/DGP10_geodesic_distance.pdf"
-                    target="_blank">Geodesic Distance</a>.</li>
-            <li><strong>17 Apr(Wed)</strong>&mdash; <a href="slides/DGP11_spectral_mesh_processing.pdf"
-                    target="_blank">Spectral Mesh Processing</a>.</li>
-            <li><strong>19 Apr(Fri)</strong>&mdash; <a href="slides/DGP12_vector_fields.pdf" target="_blank">Vector
-                    Fields</a>.</li>
-            <li><strong>24 Apr(Wed)</strong>&mdash; <a href="slides/DGP13_conformal_parameterization_I.pdf"
-                    target="_blank">Conformal Parameterization I</a>.</li>
-            <li><strong>26 Apr(Wed)</strong>&mdash; <a href="slides/DGP13_conformal_parameterization_II.pdf"
-                    target="_blank">Conformal Parameterization II</a>.</li>
-        </ul>
+                <h2 id="schedule"> Schedule</h2>
+                <ul style="list-style-type:disc">
+                        <li><strong>28 Feb(Wed)</strong>&mdash; <a href="slides/DGP01_intro.pdf"
+                                        target="_blank">Overview</a> and <a href="slides/DGP02_mesh.pdf"
+                                        target="_blank">mesh</a>.</li>
+                        <li><strong>01 Mar(Fri)</strong>&mdash; <a href="slides/DGP03_DT_VD.pdf"
+                                        target="_blank">Delaunay
+                                        Triangulations and Voronoi Diagram</a>.</li>
+                        <li><strong>06 Mar(Wed)</strong>&mdash; <a href="slides/DGP04I_reconstruction.pdf"
+                                        target="_blank">Surface
+                                        Reconstruction I</a>.</li>
+                        <li><strong>08 Mar(Fri)</strong>&mdash; <a href="slides/DGP04II_reconstruction.pdf"
+                                        target="_blank">Surface
+                                        Reconstruction II</a>.</li>
+                        <li><strong>13 Mar(Wed)</strong>&mdash; <a href="slides/DGP05_discrete_differential_curves.pdf"
+                                        target="_blank">Differential Curves</a>.</li>
+                        <li><strong>15 Mar(Fri)</strong>&mdash; <a
+                                        href="slides/DGP05_discrete_differential_surfaces.pdf"
+                                        target="_blank">Differential Surfaces</a>.</li>
+                        <li><strong>20 Mar(Wed)</strong>&mdash; <a href="slides/DGP06_mesh_smoothing.pdf"
+                                        target="_blank">Mesh
+                                        Smoothing</a>.</li>
+                        <li><strong>22 Mar(Fri)</strong>&mdash; <a href="slides/DGP07_parameterization_I.pdf"
+                                        target="_blank">Parameterization I</a>.</li>
+                        <li><strong>27 Mar(Wed)</strong>&mdash; <a href="slides/DGP07_parameterization_II.pdf"
+                                        target="_blank">Parameterization II</a>.</li>
+                        <li><strong>29 Mar(Fri)</strong>&mdash; <a href="slides/DGP07_parameterization_III.pdf"
+                                        target="_blank">Parameterization III</a>.</li>
+                        <li><strong>03 Apr(Wed)</strong>&mdash; <a href="slides/DGP08_deformation_I.pdf"
+                                        target="_blank">Deformation
+                                        I</a>.</li>
+                        <li><strong>07 Apr(Sun)</strong>&mdash; <a href="slides/DGP08_deformation_II.pdf"
+                                        target="_blank">Deformation II</a>.</li>
+                        <li><strong>10 Apr(Wed)</strong>&mdash; <a href="slides/DGP09_cubic_stylization_polycube.pdf"
+                                        target="_blank">Cubic Stylization and Polycube</a>.</li>
+                        <li><strong>12 Apr(Fri)</strong>&mdash; <a href="slides/DGP10_geodesic_distance.pdf"
+                                        target="_blank">Geodesic Distance</a>.</li>
+                        <li><strong>17 Apr(Wed)</strong>&mdash; <a href="slides/DGP11_spectral_mesh_processing.pdf"
+                                        target="_blank">Spectral Mesh Processing</a>.</li>
+                        <li><strong>19 Apr(Fri)</strong>&mdash; <a href="slides/DGP12_vector_fields.pdf"
+                                        target="_blank">Vector
+                                        Fields</a>.</li>
+                        <li><strong>24 Apr(Wed)</strong>&mdash; <a href="slides/DGP13_conformal_parameterization_I.pdf"
+                                        target="_blank">Conformal Parameterization I</a>.</li>
+                        <li><strong>26 Apr(Wed)</strong>&mdash; <a href="slides/DGP13_conformal_parameterization_II.pdf"
+                                        target="_blank">Conformal Parameterization II</a>.</li>
+                        <li><strong>New</strong>&mdash; <a href="slides/DGP14_quadmeshing.pdf" target="_blank">Quad
+                                        Meshing</a>.</li>
+                </ul>
 
-        <h2 id="assignments"> Assignments</h2>
+                <h2 id="assignments"> Assignments</h2>
 
-        <p style="text-align:justify;">
-            <strong>1.Surface Simplification Using Quadric Error Metrics</strong>(<a
-                href="assignments/Assignment1_QEM.pdf" target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/3/10.<br><br>
-            <strong>2.Poisson Surface Reconstruction</strong>(<a href="assignments/Assignment2_PSR.pdf"
-                target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/3/24.<br><br>
-            <strong>3.A Local/Global Approach to Mesh Parameterization</strong>(<a
-                href="assignments/Assignment3_ARAP.pdf" target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/3/31.<br><br>
-            <strong>4.Cubic Stylization</strong>(<a href="assignments/Assignment4_Cubicstylization.pdf"
-                target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/4/17.<br><br>
-            <strong>5.You Can Find Geodesic Paths in Triangle Meshes by Just Flipping Edges</strong>(<a
-                href="assignments/Assignment5_IntrinsicFlip.pdf" target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/5/01.<br><br>
-            <strong>6.Spectral Mesh Simplification</strong>(<a href="assignments/Assignment6_spectralQEM.pdf"
-                target="_blank">slide</a>).<br>
-            Deadline: 23:59 2024/5/10.<br><br>
-            <strong>7.Designing N-polyvector Fields with Complex Polynomials</strong>.<br>
-            Deadline: 23:59 2024/5/24.<br><br>
-            <strong>8.Discrete Calabi Flow: A Unified Conformal Parameterization Method</strong>.<br>
-            Deadline: 23:59 2024/6/09.<br><br>
-            <strong>Survey and presentation</strong>.<br>
-            Time: 2024/5/08 - 2024/5/31.<br><br>
-        </p>
-    </tr>
+                <p style="text-align:justify;">
+                        <strong>1.Surface Simplification Using Quadric Error Metrics</strong>(<a
+                                href="assignments/Assignment1_QEM.pdf" target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/3/10.<br><br>
+                        <strong>2.Poisson Surface Reconstruction</strong>(<a href="assignments/Assignment2_PSR.pdf"
+                                target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/3/24.<br><br>
+                        <strong>3.A Local/Global Approach to Mesh Parameterization</strong>(<a
+                                href="assignments/Assignment3_ARAP.pdf" target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/3/31.<br><br>
+                        <strong>4.Cubic Stylization</strong>(<a href="assignments/Assignment4_Cubicstylization.pdf"
+                                target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/4/17.<br><br>
+                        <strong>5.You Can Find Geodesic Paths in Triangle Meshes by Just Flipping Edges</strong>(<a
+                                href="assignments/Assignment5_IntrinsicFlip.pdf" target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/5/01.<br><br>
+                        <strong>6.Spectral Mesh Simplification</strong>(<a
+                                href="assignments/Assignment6_spectralQEM.pdf" target="_blank">slide</a>).<br>
+                        Deadline: 23:59 2024/5/10.<br><br>
+                        <strong>7.Designing N-polyvector Fields with Complex Polynomials</strong>.<br>
+                        Deadline: 23:59 2024/5/24.<br><br>
+                        <strong>8.Discrete Calabi Flow: A Unified Conformal Parameterization Method</strong>.<br>
+                        Deadline: 23:59 2024/6/09.<br><br>
+                        <strong>Survey and presentation</strong>.<br>
+                        Time: 2024/5/08 - 2024/5/31.<br><br>
+                </p>
+        </tr>
 </body>
 
 </html>
